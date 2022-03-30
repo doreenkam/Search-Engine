@@ -1,19 +1,45 @@
 @import url("http://fonts.cdnfonts.com/css/product-sans");
 
-nav ul {
-  display: flex;
-  padding: 5px;
-  justify-content: space-evenly;
-  cursor: pointer;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-#leftSide {
-  display: flex;
+ul {
+  list-style-type: none;
 }
 
-#rightSide {
+.nav-links {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  padding: 20px;
+}
+.navbar,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding: 0 5px;
+}
+
+.wrapper {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 8px;
 }
 
 .googleTitleContainer {
