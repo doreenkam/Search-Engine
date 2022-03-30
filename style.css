@@ -1,72 +1,69 @@
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #leftSide {
-   display: flex;
-   ;
+  display: flex;
 }
 
 #rightSide {
-    display: flex;
-    justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
 
-
 .googleTitleContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .googleTitleContainer h1 {
-    font-size: 100px;
-    display: flex;
+  font-size: 100px;
+  display: flex;
 }
 
 /* CSS selecting each letter by class and giving them a color */
 .red {
-    color: red;
+  color: red;
 }
 .blue {
-    color: blue;
+  color: blue;
 }
 .green {
-    color: green;
+  color: green;
 }
 .yellow {
-    color: yellow;
+  color: yellow;
 }
 
 /* search bar styling group */
 .searchBarContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #searchBar {
-    padding: 5px 200px 5px 50px;
-    border-radius: 10px;
-    border-color: lightgray;
-    border-style: groove;
-
+  padding: 5px 200px 5px 50px;
+  border-radius: 10px;
+  border-color: lightgray;
+  border-style: groove;
 }
 
 .buttonContainer {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .footerContainer footer {
-    display: flex
+  display: flex;
 }
 
 footer ul {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 footer p {
-    display: flex;
+  display: flex;
 }
