@@ -82,13 +82,14 @@ li a {
 
 /* button container styling */
 .buttonContainer {
-  margin-top: 20px;
+  margin-top: 35px;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
 }
 
 #search {
-  margin-right: 5px;
+  margin-right: 1px;
 }
 
 .search-icon {
