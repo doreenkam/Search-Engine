@@ -20,8 +20,7 @@ $("#form").submit(function (e) {
       result = `
       <div style="margin: 50px;">
               <a target="_blank" style="color: blue;" href="${res.url}">${res.url}</a>
-              <h6 style="font-size: 20px;">${res.title}</h6><br>
-              <p>${res.snippet}</p>
+              <h6 style="font-size: 20px;">${res.title}</h6><br><p>${res.snippet}</p>
       </div>`;
 
       $("#result").append(result);
