@@ -1,5 +1,5 @@
 # Mock Google Search Engine 
- ========================================================================
+
 ### Project Description
 > The objective of this project was to build a mock up of the _Google Search Engine_, using our own API to produce search results when the search button is clicked, as well as produce randomised results when the 'Feeling Lucky' button is clicked.
 
