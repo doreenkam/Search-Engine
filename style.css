@@ -67,8 +67,9 @@ nav ul {
 footer {
     position: fixed;
     bottom: 0;
-    background-color: lightgray;
+    background-color: rgb(238, 231, 231);
     width: 100%;
+    color: rgb(97, 94, 94);
 }
 
 footer ul {
