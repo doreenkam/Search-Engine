@@ -1,3 +1,10 @@
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -49,12 +56,37 @@ nav {
   border-style: groove;
 }
 
+/* button container styling */
 .buttonContainer {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
+
+#search {
+    margin-right: 5px;
+}
+
+#lucky {
+    margin-left: 10px;
+}
+
+/* footer styling */
+.footerContainer {
+    background-color: lightgray;
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(238, 231, 231);
+    width: 100%;
+    color: rgb(97, 94, 94);
+  }
+  
 .footerContainer footer {
   display: flex;
 }
@@ -64,6 +96,12 @@ footer ul {
   justify-content: space-evenly;
 }
 
+
+ul {
+    list-style: none;
+  }
 footer p {
   display: flex;
 }
+
+
