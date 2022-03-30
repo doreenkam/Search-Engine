@@ -16,11 +16,11 @@ $("#form").submit(function (e) {
 
     data.organic_results.forEach((res) => {
       result = `
-      <div class="container">
-              <h6>${res.title}</h6><br>
+      <div style="margin: 50px;">
               <a target="_blank" style="color: blue;" href="${res.url}">${res.url}</a>
-              <p>${res.displayed_url} ${res.domain} ${res.snippet}</p>
-              </div>`;
+              <h6 style="font-size: 20px;">${res.title}</h6><br>
+              <p>${res.snippet}</p>
+      </div>`;
 
       $("#result").append(result);
     });
