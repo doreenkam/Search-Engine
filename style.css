@@ -1,9 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/product-sans");
 
-body {
-  font-family: "Product Sans", sans-serif;
-}
-
 nav ul {
   display: flex;
   justify-content: space-evenly;
