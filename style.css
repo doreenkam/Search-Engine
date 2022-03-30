@@ -2,7 +2,12 @@
 
 nav ul {
   display: flex;
+  padding: 5px;
   justify-content: space-evenly;
+}
+
+nav ul:hover {
+  list-style: circle;
 }
 
 #leftSide {
@@ -46,10 +51,10 @@ nav ul {
 }
 
 #searchBar {
-  padding: 5px 200px 5px 50px;
-  border-radius: 10px;
-  border-color: lightgray;
-  border-style: groove;
+  padding: 5px 250px 5px 50px;
+  border-radius: 20px;
+  border-color: none;
+  height: 40px;
 }
 
 /* button container styling */
@@ -61,6 +66,15 @@ nav ul {
 
 #search {
   margin-right: 5px;
+}
+
+.search-icon {
+  position: relative;
+  float: right;
+  width: 20px;
+  height: 20px;
+  top: -30px;
+  right: 440px;
 }
 
 #lucky {
