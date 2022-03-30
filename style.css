@@ -1,18 +1,8 @@
-nav {
+
+nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
-#leftSide {
-   display: flex;
-   ;
-}
-
-#rightSide {
-    display: flex;
-    justify-content: space-between
-}
-
 
 .googleTitleContainer {
     display: flex;
@@ -52,21 +42,25 @@ nav {
 
 }
 
+/* button container styling */
 .buttonContainer {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-.footerContainer footer {
-    display: flex
+/* footer styling */
+.footerContainer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
 }
 
-footer ul {
+footer {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
-footer p {
-    display: flex;
+ul {
+    list-style: none;
 }
