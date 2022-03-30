@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Mock Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Nav bar across the top -->
     <div class="navContainer">
@@ -20,7 +23,7 @@
         </nav>
     </div>
     <!-- Google Title -->
-    <div class="googleTitleContainer">
+    <div class="googleTitleContainer" style="font-family:Georgia, 'Times New Roman', Times, serif">
         <h1>
             <span class="blue">G</span>
             <span class="red">o</span>
@@ -31,15 +34,27 @@
         </h1>
     </div>
     <!-- Google Search Bar -->
-    <div class="searchBarContainer">
-        <label for="searchBar"></label>
-        <input type="text" placeholder="" id="searchBar">
+    <div class="contain">
+        <div class="searchBarContainer">
+            <form id="form" autocomplete="off">
+                <div class="form-group">
+                    <label for="searchBar"></label>
+                    <input type="text" class="form-control" placeholder="search" id="searchBar">
+                </div>
+                <div class="buttonContainer">
+                    <div class="form-group">
+                        <button class="btn btn-outline-secondary btn-block" id="search">Search</button>
+                        <button class="btn btn-outline-secondary btn-block" id="lucky">Feeling Lucky</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-    <!-- Empty Container -->
-    <div class="buttonContainer">
-        <button id="search">Search</button>
-        <button id="lucky">Feeling Lucky</button>
+  
+    <!-- Results Container -->
+    <div id="result">
     </div>
+
     <!-- Footer -->
     <div class="footerContainer">
         <footer>
@@ -56,6 +71,9 @@
             </ul>
         </footer>
     </div>
-    
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="search.js"></script>
+
 </html>
