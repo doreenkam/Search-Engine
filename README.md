@@ -1,19 +1,28 @@
-# Search Engine Project
-Building a mock up of the Google Search Engine, using our own API to produce search results when the 'Feeling Lucky' button is clicked.
-
-## Technologies
-CSS, HTML, JavaScript
-
-## Process
-
-## Wins & Challenges
-Changing each letter of the Google h1 to match all the colours.
-
-### Wins
-
-### Challenges
+# Mock Google Search Engine 
+ ========================================================================
+### Project Description
+> The objective of this project was to build a mock up of the _Google Search Engine_, using our own API to produce search results when the search button is clicked, as well as produce randomised results when the 'Feeling Lucky' button is clicked.
 
 
-## Bugs
+#### Technologies
+* CSS 
+* HTML 
+* JavaScript
+* Bootstrap
+* Node.js
+* Express
+* Trello
 
-## Future Features
+### Process
+> To begin our project, we created a Kanban board on Trello to plan our project and to organise the tasks we needed to complete.
+
+### Wins & Challenges
+
+#### Wins
+
+#### Challenges
+> 
+
+#### Bugs
+
+### Future Features
