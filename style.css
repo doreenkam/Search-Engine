@@ -1,8 +1,13 @@
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
+@import url("http://fonts.cdnfonts.com/css/product-sans");
+
+body {
+  font-family: "Product Sans", sans-serif;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 #leftSide {
   display: flex;
@@ -26,16 +31,16 @@ nav ul {
 
 /* CSS selecting each letter by class and giving them a color */
 .red {
-  color: red;
+  color: #e44435;
 }
 .blue {
-  color: blue;
+  color: #4885f8;
 }
 .green {
-  color: green;
+  color: #3caa4d;
 }
 .yellow {
-  color: yellow;
+  color: #fabc05;
 }
 
 /* search bar styling group */
@@ -58,48 +63,43 @@ nav ul {
   justify-content: center;
 }
 
-
 #search {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #lucky {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* footer styling */
 .footerContainer {
-    background-color: lightgray;
-    position: fixed;
-    width: 100%;
+  background-color: lightgray;
+  position: fixed;
+  width: 100%;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    background-color: rgb(238, 231, 231);
-    width: 100%;
-    color: rgb(97, 94, 94);
-  }
-  
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(238, 231, 231);
+  width: 100%;
+  color: rgb(97, 94, 94);
+}
+
 footer ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-
 ul {
-    list-style: none;
-  }
-
+  list-style: none;
+}
 
 a {
-    text-decoration: none;
-    color: rgb(97, 94, 94);
+  text-decoration: none;
+  color: rgb(97, 94, 94);
 }
 
 .hover:hover {
-    box-shadow: 10px;
+  box-shadow: 10px;
 }
-
-
