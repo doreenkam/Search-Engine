@@ -1,0 +1,23 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doreenkam/Search-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doreenkam/Search-Engine/issues"
+  },
+  "homepage": "https://github.com/doreenkam/Search-Engine#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
