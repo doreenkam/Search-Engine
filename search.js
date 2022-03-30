@@ -7,6 +7,8 @@ $("#form").submit(function (e) {
 
   const API_KEY = "2e7be22910e430ce2ffdcd70806b67cc";
 
+  // Search functionality using jQuery:
+
   const url = `http://api.serpstack.com/search?access_key=${API_KEY}&query=${query}`;
 
   $.get(url, function (data) {

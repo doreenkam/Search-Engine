@@ -4,6 +4,7 @@ nav ul {
   display: flex;
   padding: 5px;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 #leftSide {
@@ -85,11 +86,16 @@ nav ul {
 }
 
 footer {
+  font-family: arial, sans-serif;
   position: fixed;
-  bottom: 0;
+  font-size: small;
+  bottom: 10px;
   background-color: rgb(238, 231, 231);
   width: 100%;
   color: rgb(97, 94, 94);
+  bottom: 0px;
+  height: 80px;
+  border-top: px solid #e4e4e4;
 }
 
 footer ul {
@@ -104,8 +110,4 @@ ul {
 a {
   text-decoration: none;
   color: rgb(97, 94, 94);
-}
-
-.hover:hover {
-  box-shadow: 10px;
 }
