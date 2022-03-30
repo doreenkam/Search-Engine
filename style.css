@@ -49,18 +49,35 @@ nav ul {
     justify-content: center;
 }
 
+#search {
+    margin-right: 5px;
+}
+
+#lucky {
+    margin-left: 10px;
+}
+
 /* footer styling */
 .footerContainer {
-    display: flex;
+    background-color: lightgray;
     position: fixed;
-    bottom: 0;
+    width: 100%;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;
+}
+
+footer ul {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 ul {
     list-style: none;
 }
+
+
