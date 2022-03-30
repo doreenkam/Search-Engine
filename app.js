@@ -79,9 +79,9 @@ app.get("/rand-page", (req, res) => {
 });
 
 // function for retrieving random webpages from array
-function randomWebPages() {
+function randomWebPages(google) {
   const randNum = Math.floor(Math.random() * google.length);
-  return randomWebPages[randNum];
+  return google[randNum - 1];
 }
 
 module.exports = app;
